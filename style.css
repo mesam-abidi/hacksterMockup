@@ -5,12 +5,12 @@
 
 header{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 .headerleft{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:50%;
     display: flex;
     justify-content: space-evenly;
@@ -18,7 +18,7 @@ header{
 
 
 .headerRight{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:50%;
     display: flex;
     justify-content: flex-end;
@@ -70,6 +70,57 @@ button{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*HeaderTwoSection Start*/
+
+.headerSectionTwo{
+    display: flex;
+    height: 44px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.HeaderNavDiv{
+    border: 1px solid #D8D8D8;
+    width: 70%;
+
+}
+
+.HeaderIconSection{
+    border: 1px solid #D8D8D8;
+    width: 30%;
+
+}
+
+.HeaderNavDiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+
+}
+nav ul{
+    display: flex;
+    margin-left: 30px;
+}
+
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 25px;
+    color:rgb(88, 84, 84);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Header Two Section Ends*/
+
+
+
+/*BodySectionStart*/
 .bodysectionstart{
     display: flex;
 }
@@ -80,6 +131,7 @@ button{
     background-image: url(rightdiv.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 1px solid black;
 }
 
 .bodysecLeft{
